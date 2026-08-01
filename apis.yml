@@ -1,7 +1,23 @@
 aid: rigi
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rigi.png
 name: Rigi
-description: 'Rigi is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: media. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Rigi (Rigi TV) is an instant-entertainment mobile app that streams quick,
+  captivating, and scroll-worthy short-form video and micro-drama series across genres
+  such as romance, drama, thriller, and suspense. Operated out of HSR Layout in Bengaluru,
+  Karnataka, India and backed by Accel, it delivers on-demand vertical entertainment
+  through its Android app. It is a consumer-facing streaming product; no public developer
+  API, documentation, or developer portal surface is currently published.'
 url: https://raw.githubusercontent.com/api-evangelist/rigi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +27,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Media
+- Entertainment
+- Streaming
+- Video
+- Short-form Video
+- OTT
+- Mobile App
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +46,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://app.rigi.club/
+  url: https://rigi.club/
+- type: About
+  url: https://rigi.club/about-us
+- type: TermsOfService
+  url: https://rigi.club/terms-of-service
+- type: PrivacyPolicy
+  url: https://rigi.club/privacypolicy
+- type: Careers
+  url: https://rigi.keka.com/careers
+- type: DomainSecurity
+  url: security/rigi-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
